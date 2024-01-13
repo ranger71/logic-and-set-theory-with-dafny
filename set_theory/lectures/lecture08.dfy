@@ -52,7 +52,7 @@ ghost predicate IsTotalOrder<T(!new)>(R: BinaryRelation<T,T>, A: iset<T>)
     IsPartialOrder(R, A) && forall a,b :: a in A && b in A ==> (a,b) in R || (b,a) in R
 }
 
-// Here's an alternative definnition:
+// Here's an alternative definition:
 ghost predicate IsTotalOrder'<T(!new)>(R: PartialOrder<T>, A: set<T>)
 {
 	forall a,b :: a in A && b in A ==> (a,b) in R || (b,a) in R
