@@ -24,11 +24,11 @@ A second-year course on Logic and Set Theory to computer science students:
 
 ## Set-theory-related examples: Dafny as a proof assistant
 
-- distributivity of set union over intersection
-- set difference is NOT associative
-- domain and range of the inverse (binary) relation
-- bijective functions / cardinal equivalence
-- equivalence relations
+- [distributivity of set union over intersection](https://github.com/ranger71/logic-and-set-theory-with-dafny/blob/main/set_theory/assignments/assignment1%20-%20partial%20solution.dfy#L32)
+- [set difference is NOT associative](https://github.com/ranger71/logic-and-set-theory-with-dafny/blob/main/set_theory/assignments/assignment1%20-%20partial%20solution.dfy#L124)
+- [domain and range of the inverse (binary) relation](https://github.com/ranger71/logic-and-set-theory-with-dafny/blob/main/set_theory/assignments/assignment2%20-%20with%20solution%20of%20Q1-Q6.dfy#L155)
+- [bijective functions / cardinal equivalence](https://github.com/ranger71/logic-and-set-theory-with-dafny/blob/main/set_theory/assignments/assignment3%20-%20with%20solution.dfy#L110)
+- [equivalence relations](https://github.com/ranger71/logic-and-set-theory-with-dafny/blob/main/set_theory/assignments/A_2022_solution.dfy#L28)
 
 ## Propositional-logic-related examples: Dafny as a (verification-aware) programming language
 
