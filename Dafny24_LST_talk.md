@@ -33,8 +33,14 @@ A second-year course on Logic and Set Theory to computer science students:
 ## Propositional-logic-related examples: Dafny as a (verification-aware) programming language
 
 - three natural deduction sequent validity proofs
+	- [1.2 1k](https://github.com/ranger71/logic-and-set-theory-with-dafny/blob/main/logic/assignments/logic-assignment-1-solution.dfy#L76)
+ 	- [1.2 3m long case analysis](logic/assignments/logic-assignment-1-solution.dfy#L480)
+ 	- [1.2 3m shorter proof-by-contradiction - submitted by students](logic/assignments/logic-assignment-1-solution.dfy#L486)
+	- [1.4 6a](dafny24-LST-talk.dfy#360)
+    
 - one truth table example
-
+	- [1.4 2b](dafny24-LST-talk.dfy#405)
+ 
 ## Future directions
 
 - More automation for predicate logic
