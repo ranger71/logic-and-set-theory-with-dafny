@@ -1,25 +1,9 @@
 include "../lectures/lecture09.dfy"
 
-/*
-נגדיר את
- A 
- להיות קבוצת המספרים הטבעיים הזוגיים ואת 
- B 
- להיות קבוצת המספרים הטבעיים האי-זוגיים, בשפת דפני:
- */
 ghost const A := iset x: nat | x%2 == 0
 ghost const B := iset y: nat | y%2 == 1
-/*
-באמצעות מי מבין הקבוצות הבאות ניתן להוכיח שהקבוצה 
-A
- שקולה עוצמתית לקבוצה 
- B
- ?
 
-
- F : A -> B
-
-*/
+// F : A -> B
 ghost const Fa := iset x, y | x in A && y in B && x+1 == y :: (x,y) // looks correct!
 ghost const Fb := iset x, y | x in A && y in B && x == y+1 :: (x,y) // Correct answer? No: 0 !in Domain(Fb)
 ghost const Fc := iset x, y | x in A && y in B && x-1 == y :: (x,y) // 0 !in Domain(Fc)

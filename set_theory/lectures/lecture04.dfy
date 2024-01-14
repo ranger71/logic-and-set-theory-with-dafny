@@ -25,14 +25,11 @@ lemma ModusPonens'(P: bool, Q: bool)
 	ensures ((P ==> Q) && P) ==> Q
 {}
 
-// H: make it more accessible
-
 lemma ExtensionalityAxiom(A: set, B: set)
     ensures (A==B) <==> (forall x :: x in A <==> x in B)
 {}// well, it's an axiom, so no need to prove it;
   // yet the empty proof shows that Dafny knows about it and accepts it
 
-// with Hezi (19May2023): we may want to define our own datatype for sets as we did for a logical formula
 lemma FromExtensionalityInNegation(A: set, B: set)
     ensures (A==B) <==> (forall x :: x !in A <==> x !in B)
 {}
@@ -93,9 +90,7 @@ lemma EmptySets(A: set, B: set)
 */
 lemma BidirectionImplication(P: bool, Q: bool)
     ensures (P <==> Q) == ((P ==> Q) && (P <== Q))
-{
-    // H: exercise - rephrase using our PropositionalFormula datatype and prove with our new truth tables
-}
+{}
 
 /*
 one more way of proving logical equivalence L <==> R:

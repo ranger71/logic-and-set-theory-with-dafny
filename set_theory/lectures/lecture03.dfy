@@ -68,7 +68,6 @@ module Lecture03 {
 		ensures (P && Q) ==> Q
 	{}
 
-	// with Hezi on 19/5/2023 (after reading lecture04.dfy):
 	ghost predicate IsTrue(P: PropositionalFormula) {
 		ValidFormula(P) && forall assignment: map<nat, bool> :: Identifiers(P) <= assignment.Keys ==> Value(P, assignment) == true
 	}
