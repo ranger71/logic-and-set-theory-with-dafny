@@ -36,10 +36,10 @@ A second-year course on Logic and Set Theory to computer science students:
 	- [1.2 1k](https://github.com/ranger71/logic-and-set-theory-with-dafny/blob/main/logic/assignments/logic-assignment-1-solution.dfy#L76)
  	- [1.2 3m long case analysis](logic/assignments/logic-assignment-1-solution.dfy#L480)
  	- [1.2 3m shorter proof-by-contradiction - submitted by students](logic/assignments/logic-assignment-1-solution.dfy#L486)
-	- [1.4 6a](dafny24-LST-talk.dfy#360)
+	- [1.4 6a](dafny24-LST-talk.dfy#L360)
     
 - one truth table example
-	- [1.4 2b](dafny24-LST-talk.dfy#405)
+	- [1.4 2b](dafny24-LST-talk.dfy#L405)
  
 ## Future directions
 
