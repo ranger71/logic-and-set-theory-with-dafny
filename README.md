@@ -37,11 +37,11 @@ Selected Proofs (from past and present course assignment exercises)
 
 Set-theory-related examples: Dafny as a proof assistant
 
-a) distributivity of set union over intersection
-b) set difference is NOT associative
-c) domain and range of the inverse (binary) relation
-d) bijective functions / cardinal equivalence
-e) equivalence relations
+- distributivity of set union over intersection
+- set difference is NOT associative
+- domain and range of the inverse (binary) relation
+- bijective functions / cardinal equivalence
+- equivalence relations
 
 ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯5⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
 
