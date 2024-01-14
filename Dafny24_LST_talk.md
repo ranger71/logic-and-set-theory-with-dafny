@@ -1,4 +1,4 @@
-## Dafny 2024 @ POPL talk on the LST course (London, 14 January 2024):
+## Dafny 2024 @ POPL talk on the LST course (London, 14 January 2024)
 
 "Teaching Logic and Set Theory with Dafny" by Ran Ettinger and Hezi Daniel, Israel Academic College in Ramat Gan
 
@@ -14,10 +14,8 @@ A second-year course on Logic and Set Theory to computer science students:
 ## Sources and Inspiration
 
 - Set Theory: An “Introduction to Set Theory and Logic” course by Prof. Uri Abraham at Ben-Gurion University
-
 - Logic: “Logic in Computer Science: Modelling and Reasoning about Systems” by Huth and Ryan
-
-- For both: “Dafny Power User: Different Styles of Proofs” by K. Rustan M. Leino
+- For both: “[Dafny Power User: Different Styles of Proofs](http://leino.science/papers/krml276.html)” by K. Rustan M. Leino
 
 ## Selected Proofs (from past and present course assignment exercises)
 
